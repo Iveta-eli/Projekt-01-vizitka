@@ -1,3 +1,102 @@
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+
+h1,
+h2,
+h3{
+    color:black;
+    font-family: sans-serif;
+    line-height: 1.5; 
+}
+
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    text-shadow: 0 3px 10px black;
+}
+
+
+p,
+li{
+    color:black;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 5 0 0 0;
+}
+
+
+
+a{
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(226, 233, 217);
+    display: block;
+    margin: 0;
+}
+
+
+section{
+    padding: 25px 15%;
+    overflow: auto; /* zařídí nepřetékání obrázků*/
+}
+
+.hlavicka{
+    padding: 40px 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.foto-knirac2,
+.foto-knirac1{
+    width: 250px;
+    border-radius: 10%;
+    float: left;
+    margin: 0 100px 0 0;
+}
+
+.foto-knirac3{
+    width: 450px;
+    border-radius: 10%;
+    float: right;
+    margin: 0 0 0 50px; 
+}
+
+.foto-ja{
+    width: 200px;
+    border-radius: 10%;
+    float: left;
+    margin: 0 100px 0 0;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fdfff8;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: black
+}
+
+.footer{
+    background-color: #faf6f7;
+    text-align: center;
+    padding:5px 0;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #adcc58;
+}
